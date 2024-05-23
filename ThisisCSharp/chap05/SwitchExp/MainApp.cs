@@ -10,7 +10,6 @@ namespace ThisisCSharp.chap05.SwitchExp
     {
         static void Main(string[] args)
         {
-            // A switch statement can be used to produce values through branching, allowing you to write more readable code.
             Console.WriteLine("Please enter the score");
             int score = Convert.ToInt32(Console.ReadLine());
 
