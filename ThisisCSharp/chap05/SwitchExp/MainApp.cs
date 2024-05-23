@@ -20,7 +20,6 @@ namespace ThisisCSharp.chap05.SwitchExp
 
             string grade = (int)(Math.Truncate(score / 10.0) * 10) switch
             {
-                90 when repeated == true => "B+",
                 90 => "A",
                 80 => "B",
                 70 => "C",
